@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+  }
+  
+  .card {
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.445);
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 24px;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-top: 50px;
+  }
+  
+  .dropdown-text {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 200px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-item {
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+
+  .form-group {
+    margin-top: 30px;
+}
+
+.form-group button {
+    padding: 5px 10px;
+    margin : 30px;
+}
+
+.result {
+    margin-top: 10px;
+    font-weight: bold;
+}
